@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+ .myself_md {
+  display: block;
+ }
+ .myself_md .myself_text h1,  .myself_md .myself_text p{
+  width: 100% !important;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .myself {
+   display: none;
+  }
+  
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .myself_md {
+   display: none;
+  }
+  .img{
+    width: auto;
+  }
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .myself {
+   display: block;
+  }
+  
+ }
+
+
+
+ @media screen and (max-width: 768px) {
+  .about-me_md {
+   display: block;
+  }
+  .about-me_md .about_me_text h1,  .about-me_md .about-me_text p{
+   width: 100% !important;
+  }
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .about-me {
+    display: none;
+   }
+   
+  }
+ 
+  
+ @media screen and (min-width: 768px) {
+   .about-  me_md {
+    display: none;
+   }
+   .img{
+     width: auto;
+   }
+  }
+ 
+  
+ @media screen and (min-width: 768px) {
+   .about_me {
+    display: block;
+   }
+   
+  }
+ 
